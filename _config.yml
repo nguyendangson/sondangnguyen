@@ -1,21 +1,18 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Nam H Nguyen
+description: PhD Student in Statistics, Rice University
+site_title: '@hn17 - Nam H Nguyen'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+linkedin: https://www.linkedin.com/in/namnguyenrice23/ 
+github_username: hoainamnguyen94
+email: hn17@rice.edu
 
 # absolute or relative
-profile_picture: assets/images/pp.jpg
+profile_picture: assets/images/NamNguyen.jpg
 
 # Google Analytics ID
 google_analytics: 
