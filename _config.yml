@@ -7,7 +7,7 @@ markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-linkedin: https://www.linkedin.com/in/namnguyenrice23/ 
+linkedin: namnguyenrice23 
 github_username: hoainamnguyen94
 email: hn17@rice.edu
 
