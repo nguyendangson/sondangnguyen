@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/cancer_risk_prediction.png',
+            image: 'assets/images/risk_prediction.png',
             link: 'https://github.com/wwylab/LFSPRO',
             title: 'Personalized Cancer Risk Prediction',
             github: 'https://github.com/wwylab/LFSPRO',
