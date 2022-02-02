@@ -11,7 +11,8 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/cancer_risk_prediction.PNG',
+            image: 'assets/images/cancer_risk_prediction.png',
+            link: 'https://github.com/wwylab/LFSPRO',
             title: 'Personalized Cancer Risk Prediction',
             github: 'https://github.com/wwylab/LFSPRO',
             technologies: ['R', 'C++', 'Linux'],
@@ -19,7 +20,8 @@ let render_projects = (slug) => {
             categories: ['featured', 'statistics']
         },
         {
-            image: 'assets/images/validation.jpg',
+            image: 'assets/images/validation.png',
+            link: 'https://github.com/peng-gang/LFSPROShiny',
             title: 'Model Validation on Clinically Ascertained Families',
             github: 'https://github.com/peng-gang/LFSPROShiny',
             technologies: ['R', 'Shiny', 'git'],
