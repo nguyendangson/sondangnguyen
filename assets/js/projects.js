@@ -11,21 +11,20 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/cancer_risk_prediction.jpg',
-            title: 'Cancer Risk Prediction',
-            github: 'https://mporter.co',
+            image: 'assets/images/cancer_risk_prediction.png',
+            title: 'Personalized Cancer Risk Prediction',
+            github: 'https://github.com/wwylab/LFSPRO',
             technologies: ['R', 'C++', 'Linux'],
-            description: "I developed a Bayesian semi-parametric model for cancer risk prediction. Our model is the first to take into account multiple primary cancers and competing risks from multiple cancer types.",
+            description: "I developed a Bayesian semi-parametric model for cancer risk prediction. Our approach is the first to model multiple primary cancers and competing risks from multiple cancer types, while accounting for the pedigree structure of the families.",
             categories: ['featured', 'statistics']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://github.com/abhn/Wall-E',
-            title: 'Wall-E',
-            demo: 'http://wall-e-jekyll.github.io/',
-            technologies: ['Semantic UI', 'Jekyll'],
-            description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
-            categories: ['featured', 'webdev']
+            image: 'assets/images/validation.jpg',
+            title: 'Model Validation on Clinically Ascertained Families',
+            github: 'https://github.com/peng-gang/LFSPROShiny',
+            technologies: ['R', 'Shiny', 'git'],
+            description: "The project aims to validate existing cancer risk prediction models developed by our lab, which were trained using a research-based cohort, on a clinical dataset from MD Anderson Cancer Center. We are developing a Shiny app for clinicians to use our models on real patients.",
+            categories: ['featured', 'statistics']
         },
         {
             image: 'assets/images/collage.jpg',
