@@ -11,13 +11,12 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
-            link: 'https://github.com/abhn/Mporter',
-            title: 'Mporter',
-            demo: 'https://mporter.co',
-            technologies: ['Flask', 'Celery', 'Python'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
-            categories: ['featured', 'webdev']
+            image: 'assets/images/cancer_risk_prediction.jpg',
+            title: 'Cancer Risk Prediction',
+            github: 'https://mporter.co',
+            technologies: ['R', 'C++', 'Linux'],
+            description: "I developed a Bayesian semi-parametric model for cancer risk prediction. Our model is the first to take into account multiple primary cancers and competing risks from multiple cancer types.",
+            categories: ['featured', 'statistics']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
@@ -186,7 +185,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.github}">Github</a>` : ''}</p>
                     </article>
 
                                 
