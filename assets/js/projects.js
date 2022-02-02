@@ -185,7 +185,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.github}">Github</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.github ? `<a href="${project.github}">Github</a>` : ''}</p>
                     </article>
 
                                 
