@@ -16,3 +16,4 @@ profile_picture: assets/images/NamNguyen.jpg
 
 # Google Analytics ID
 google_analytics: 
+theme: jekyll-theme-cayman
